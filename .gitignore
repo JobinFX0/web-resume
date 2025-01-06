@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -7,14 +8,26 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Ignore node_modules
+node_modules/
 
-# Editor directories and files
+# Ignore log files
+*.log
+
+# Ignore build or dist directories
+dist/
+dist-ssr/
+build/
+
+# Ignore package manager lock files (if using Yarn)
+yarn.lock
+
+# Ignore VS Code specific files
+.vscode/
 .vscode/*
 !.vscode/extensions.json
+
+# Ignore IDE/editor directories and files
 .idea
 .DS_Store
 *.suo
@@ -22,3 +35,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment Variables
+.env
+.env.*
