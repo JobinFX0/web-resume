@@ -1,6 +1,5 @@
 import React from "react";
 import Lottie from 'lottie-react';
-
 import "./home.css";
 
 const Home = () => {
@@ -8,29 +7,19 @@ const Home = () => {
     <>
     <div className="home-container">
       <div className="home-left">
-      <h1 className="home-welcome">Welcome to WEB-RESUME,</h1>
+      <h1 className="home-head">Welcome to WEB-RESUME,</h1>
       <br />
       <br />
       <p className="home-about">
-        The free platform to create professional resumes and stunning personal
-        resume websites in just minutes!
-      </p>
+      <span className= "span-title" style={{color:"#5adafa"}}>WEB-RESUME's </span>
       <br />
       <br />
-      <p className="home-about home-about-two">
-        Whether you're applying for your dream job or showcasing your portfolio,
-        <br />
-        WEB-RESUME offers sleek, customizable templates that are clean,
-        impactful, and designed to make you stand out.
-      </p>
+       striking resume template ensures your profile commands attention, while your personalized website reflects your professionalism, commitment, and readiness to embrace new opportunities
+        </p>
+      <button className="getStarted-btn-home">START FOR FREE!!</button>
       <br />
       <br />
-      <p className="home-about home-about-two">In today’s competitive world, a professional resume isn’t just a document—it’s your first impression. With WEB-RESUME, ensure that impression is unforgettable. It’s quick, easy, and completely free to get started!</p>
-      <br />
-      <br />
-      <button className="getStarted-btn-home">Try Now</button>
       </div>
-      
     </div>
     </>
   );

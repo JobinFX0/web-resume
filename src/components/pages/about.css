@@ -1,0 +1,58 @@
+
+.about-head-items{
+  font-size: 1.5rem;
+  margin: -10px 0 0 30px;
+}
+
+.about-how-items{
+  font-size: 1.5rem;
+  margin: 20px 0 0 60px;
+  list-style:decimal;
+}
+.about-li{
+  font-size: 1.7rem;
+  margin: 5px 0px 0 10px;
+  
+}
+
+.about-mission-items{
+  font-size: 1.5rem;
+  margin: 20px 0 0 30px;
+  list-style:decimal;
+}
+.about-signup{
+  font-size: 2rem;
+  align-items: center;
+  text-align: center;
+  margin: 50px 50px 50px 30px;
+}
+.s-1{
+color: aqua;
+font-size: 3rem;
+margin: 50px 50px 0px 30px;
+}
+.about-btn-container{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.getStarted-btn-about{
+  display: flex;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+ border:2px solid rgb(255, 255, 255);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.getStarted-btn-about:hover{
+  border: 2.5px solid rgb(103, 223, 249);
+  transform: scale(1.1);
+}
+.getStarted-btn-about:active{
+  border: 5px solid rgb(255, 47, 47);
+  background: linear-gradient(to-right,red,blue);
+  transform: scale(.8);
+}
