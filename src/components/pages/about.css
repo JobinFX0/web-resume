@@ -42,17 +42,18 @@ margin: 50px 50px 0px 30px;
   font-size: 1.5rem;
   padding: 10px 20px;
   border-radius: 30px;
- border:2px solid rgb(255, 255, 255);
+ border:2px solid rgb(0, 242, 255);
   background: transparent;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 .getStarted-btn-about:hover{
-  border: 2.5px solid rgb(103, 223, 249);
+  border: 2.5px solid rgba(26, 255, 0, 0.533);
   transform: scale(1.1);
 }
 .getStarted-btn-about:active{
-  border: 5px solid rgb(255, 47, 47);
+  border: 2.5px solid rgb(0, 242, 255);
   background: linear-gradient(to-right,red,blue);
-  transform: scale(.8);
+  transform: scale(1.1);
+  transition: 0.02s ease;
 }

@@ -2,3 +2,14 @@
   background-color: black;
   color: white;
 }
+.hover{
+  /* text-decoration: underline;  */
+  text-decoration-color: white; 
+  border: 1px solid rgb(255, 255, 255);
+  transition: text-decoration-color 0.3s ease;
+}
+.hover:hover{
+  color: aqua;
+ /* border: 1px solid red; */
+  text-decoration-color: rgb(2, 253, 253); 
+}

@@ -13,12 +13,22 @@ justify-content: flex-end;
 align-items: center;
 }
 .nav-links li{
-  margin: 0px 30px;
+  margin: 0 20px 5px 30px;
   cursor: pointer;
     list-style: none;
     font-size: 1.2rem;
 }
 .nav-links li a{
     text-decoration: none;
-    
+}
+
+.hover-nav:hover{
+ text-decoration: underline;
+  text-decoration-color: rgb(0, 242, 255);
+  transform: scale(.9);
+  transition: .4s ease;
+}
+.hover-nav:active{
+  text-decoration-color: red;
+  transition: .005s ease;
 }
