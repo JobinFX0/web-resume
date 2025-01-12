@@ -6,7 +6,8 @@ import Navbar from './components/navbar/navBar'
 import Home from './components/pages/home'
 import About from './components/pages/about'
 import Contact from './components/pages/contact'
-import Log from './components/pages/log'
+import LoginButton from './components/pages/login'
+import LogoutButton from './components/pages/logout'
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/log" element={<Log/>} />
+        <Route path="/login" element={<LoginButton/>} />
+        <Route path="/logout" element={<LogoutButton/>} />
       </Routes>
       </Router>
 

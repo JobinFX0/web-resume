@@ -4,7 +4,7 @@ import './about.css'
 const About = () => {
   return (
     <div className='about' >
-      <h2 className='about-head s-1'>About WEB-RESUME</h2>
+      <h2 className='about-head s-1'>About WEB-RESUME.</h2>
       <br />
       <br />
       <p className='about-head-items'>WEB-RESUME is a user-friendly platform designed to help professionals create visually striking resumes effortlessly.<br/> Whether you're just starting your career or looking to make a powerful impression, <br />our service simplifies the process of building a standout resume and personal website.</p>
